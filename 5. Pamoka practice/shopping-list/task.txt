@@ -1,0 +1,12 @@
+Sukurkite puslapį kuriame bus galima išsisaugoti pirkinių krepšelį (labai panašu kaip TODO app).
+
+Pagrindinį state išsisaugojam App componente.
+
+
+Components:
+
+Product: savyje turi paraagrafą ir Delete mygtuką(delete mygtukas ištrina iš pagrindinio state prekę ir tokiu būdu perserinderina visos prekės)
+
+ProductList: Išrenderina visus produktus kuriuos gauna kaip propsą iš App komponento
+
+AddProductForm: forma kurioje įrašote prekės pavadinimą ir paspaudus Add mygtuką pridedate prie pgagrindinio state

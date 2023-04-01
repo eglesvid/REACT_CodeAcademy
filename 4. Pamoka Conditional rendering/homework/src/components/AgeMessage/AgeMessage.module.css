@@ -1,0 +1,87 @@
+/* .age-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid #0080ff;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0080ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0059b3;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+} */
+
+/* KITAS VARIANTAS: */
+.age-message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.age-message-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.age-message-container label {
+  margin-bottom: 0.5rem;
+}
+
+.age-message-container input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid gray;
+  border-radius: 0.5rem;
+}
+
+.age-message-container button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.age-message {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0077cc;
+}

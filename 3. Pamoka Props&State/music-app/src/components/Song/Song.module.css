@@ -1,0 +1,10 @@
+.song-container {
+  background-color: gainsboro;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.song-container :nth-child(1) {
+  font-size: larger;
+  font-weight: bolder;
+}

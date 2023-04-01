@@ -1,0 +1,3 @@
+Turim 3 mygtukus ir priklausomai kuri paspaudzia, mums isrendina kazkuri is posts ar comment, ar albums.
+Musu useEffect laukia, kol pasikeicia state, ir kai jis pasikeis, darys nauja requesta is viena is situ endpointu.
+Ir tuomet atsinaujins kitas state variable, kuriame mes issaugom informacija ir atvaizduos info musu ekrane.

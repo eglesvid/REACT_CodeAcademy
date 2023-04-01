@@ -1,0 +1,20 @@
+The application should have the following components:
+1. App: This should be the top-level component that manages the state of the tasks list. It should contain the Header and TaskList components as children.
+2. Header: This should be a simple component that displays a title for the the application.
+3. TaskList: This should be a component that displays a list of all the tasks. It should receive the list of tasks as a prop and render each task as a Task component.
+4. Task: This should be a component that displays a single task.
+        It should receive the task details as props, including the task text and whether or not it is completed.
+        The component should display the task text in black if the task is not completed and gray if it is completed.
+        It should also display a checkbox that toggles the completion state of the task.
+5. AddTaskForm: This should be a component that allows the user to add a new task to the list.
+                It should have a text input field and a "Add Task" button.
+                When the user clicks the button, the new task should be added to the list and displayed in the TaskList component.
+
+To implement this you will need to:
+1. Create the App component and use the useState hook to manage the list of tasks.
+2. Create the Header component and render it in the App component.
+3. Create the TaskList component and render it in the App component. Pass the list tasks as a prop to this component.
+4. Create the Task component and render it in the TaskList component for each task in the list. Pass the task details as props to this component.
+5. Implement the checkbox in the Task component using the useState hook to manage the completion state of the task.
+6. Create the AddTaskForm component and render it in the App component.
+Implement the logic to add a new task to the list when the "Add Task" button is clicked.

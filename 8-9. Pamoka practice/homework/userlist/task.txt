@@ -1,0 +1,23 @@
+Task:
+
+1. Create a new React component called UserList that will display a list of users.
+	
+2. Inside the UserList component, declare a new state variable called users using the useState hook. Initialize it as an empty array.
+	
+3. Inside the UserList component, declare a new state variable called isLoading using the useState hook. Initialize it as true.
+	
+4. Inside the UserList component, declare a new state variable called error using the useState hook. Initialize it as null.
+	
+5. Inside the UserList component, use the useEffect hook to fetch a list of users from the following API endpoint: https://jsonplaceholder.typicode.com/users.
+	
+6. While the data is being fetched, set the isLoading state variable to true.
+	
+7. If an error occurs while fetching the data, set the error state variable to the error message and set the isLoading state variable to false.
+	
+8. If the data is successfully fetched, set the users state variable to the fetched data and set the isLoading state variable to false.
+	
+9. Render the users in an unordered list (<ul>), displaying their name, email, and company properties.
+	
+10. If isLoading is true, display a message indicating that the data is being fetched.
+	
+11. If error is not null, display an error message instead of the list of users.

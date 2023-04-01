@@ -1,0 +1,10 @@
+1. Sukurkite šiuos komponentus:
+   a. Posts;
+   b. Post;
+
+2. Pagrindiniame komponente (App.js), turi būti randamas <Posts/>, komponentas, kuris savyje laikys <Post/> komponentą,
+  kuris atvaizduos duomenis (props: title ir body).
+  <Posts/> komponentas, informaciją pasiims iš čia:
+  a. URI https://jsonplaceholder.typicode.com/posts
+
+3. Būtina naudoti: useState, useEffect
