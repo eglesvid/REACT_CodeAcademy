@@ -1,0 +1,11 @@
+Task: Create a React application that displays a list of items.
+      Each item should have a name, a description, and a price.
+      The list should be sorted in ascending order based on the price of the items.
+
+Instructions:
+1. Create a new React project using create-react-app.
+2. Create a component called Item that takes in three props: name, description, and price.
+3. Create a component called ItemList that takes in an array of items as a prop and displays them in a list.
+4. Inside the ItemList component, use useMemo to sort the array of items in ascending order based on the price of the items.
+5. Display the sorted list of items using the Item component.
+6. Style the Item and ItemList components as desired.
