@@ -1,0 +1,14 @@
+Description:
+You are tasked to create a modal component in React using portals.
+The modal should have the following features:
+
+1. It should be triggered by a button click.
+2. It should have a close button that dismisses the modal.
+3. It should display some content that you can customize, such as an image, text, or form.
+4. It should be rendered using a portal, so it is displayed outside of the component hierarchy.
+
+
+Requirements:
+1. Use React functional components and hooks to create the modal.
+2. Use React portals to render the modal outside of the component hierarchy.
+3.Use CSS to style the modal and its contents.
