@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import env from "react-dotenv";
 
 const HOST = "https://api.openweathermap.org/data/2.5/weather";
-const API_KEY = "813f7f4cd5bd5b6502eea82af1897f5f";
+const { API_KEY } = process.env;
 
 // https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}&lang={lang}
 
@@ -59,7 +60,7 @@ export default function CityForm({ setTemp, setLastUpdated, setLastServerUpdate 
           appid: API_KEY,
           units: "metric",
         },
-      }) //kiekvienam request atskirai pasiduodam params
+      })
       .then((response) => {
         setTemp(response.data.main);
         setDoesCityExist(false);
