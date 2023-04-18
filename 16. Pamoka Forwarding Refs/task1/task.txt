@@ -1,0 +1,19 @@
+Užduotis:
+
+1. Peržiūrėkite:
+1.1. "Portals" kodo pavyzdžius;
+
+2. Sukurkite 10 vartotojų sąrašą, kuriame bus matomas vartotojo vardas ir pavardė.
+   Paspaudus ant jų (vardo ir pavardės) išoks "modal" su platesne informacija apie vartotoją
+   (vardas ir pavardė, el. paštas, telefonas, pilnas adresas).
+   
+
+Reikalavimai užduočiai:
+- "modal" turi būti kuriamas kaip "reusable component" ir atvaizduojamas 
+  ne pagr. div'e (ne “root”), o skirtame "modal” naudojant “Portals” techniką;
+- komponentai turi turėti "PropTypes" - jei juose naudojami "props";
+- informaciją apie vartotojus imkite iš čia: https://jsonplaceholder.typicode.com/users
+- duokite minimalų stilių su "styled-components".
+
+
+Užduoties laikas: 3 val.
