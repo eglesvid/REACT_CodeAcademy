@@ -1,0 +1,18 @@
+.submit {
+  color: white;
+  background-color: rgb(119, 104, 207);
+}
+
+.cancel {
+  color: rgb(119, 104, 207);
+  background-color: rgb(224, 222, 241);
+}
+
+.submit,
+.cancel {
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
