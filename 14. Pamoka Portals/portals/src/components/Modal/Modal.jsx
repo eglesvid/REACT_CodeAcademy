@@ -7,7 +7,7 @@ const modalStyle = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  zIndex: 1000, //padaro, kad elementas butu auksciau. kas turi didesne reiksme, tas yra labiau matomas
+  zIndex: 1000,
 };
 
 const backgroundStyles = {
