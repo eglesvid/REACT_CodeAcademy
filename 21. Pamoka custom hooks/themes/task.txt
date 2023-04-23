@@ -1,0 +1,12 @@
+Task:
+Create a Custom Hook to Manage a Light/Dark Theme
+
+Objective:
+Create a custom hook called useTheme that will help manage a light/dark theme for a React application.
+This custom hook will handle the theme's state, toggle the theme, and persist the user's theme preference using the browser's local storage.
+
+Requirements:
+1. The custom hook should return an object containing the current theme and a function to toggle the theme.
+2. The custom hook should store the user's theme preference in the browser's local storage.
+3. The custom hook should load the user's theme preference from local storage when initialized.
+4. The toggle function should switch between the light and dark themes.

@@ -1,0 +1,9 @@
+Objective:
+Create a custom hook called useMouseCoordinates that will help manage
+the current mouse coordinates (x, y) on the screen.
+This custom hook will handle the mouse coordinates' state and update them when the mouse moves.
+
+Requirements:
+1. The custom hook should return an object containing the current x and y coordinates of the mouse.
+2. The custom hook should update the x and y coordinates when the mouse moves.
+3. The custom hook should clean up the event listener when the component using the hook is unmounted.
